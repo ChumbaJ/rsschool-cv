@@ -36,3 +36,4 @@
     Chinese - HSK5
 
 
+link: https://ChumbaJ.github.io/rsschool-cv/cv
