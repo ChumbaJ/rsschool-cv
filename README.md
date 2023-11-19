@@ -1,1 +1,1 @@
-# rsschool-cv
+https://ChumbaJ.github.io/rsschool-cv/
