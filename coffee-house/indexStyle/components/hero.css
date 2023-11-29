@@ -4,12 +4,13 @@
     position: relative;
 }
 
-.hero__container__image {
+.hero__offer__container {
+    padding: 100px;
+    background-image: url("/coffee-house/icons/img-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 40px;
-    position: absolute;
-    z-index: -1;
-} 
-
+}
 .hero__offer {
     display: flex;
     flex-flow: column nowrap;
