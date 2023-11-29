@@ -1,15 +1,12 @@
 .hero__container {
     height: 644px;
     color: #E1D4C9;
-    padding: 100px !important;
     position: relative;
 }
 
 .hero__container__image {
     border-radius: 40px;
     position: absolute;
-    top: 0;
-    left: 0;
     z-index: -1;
 } 
 
