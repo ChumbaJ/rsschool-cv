@@ -1,3 +1,7 @@
+.hero {
+    margin: 0 0 100px 0;
+}
+
 .hero__container {
     color: #E1D4C9;
     position: relative;
