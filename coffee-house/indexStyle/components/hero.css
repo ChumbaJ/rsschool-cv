@@ -1,5 +1,7 @@
 .hero__container {
     height: 644px;
+    color: #E1D4C9;
+    padding: 100px;
 }
 
 .hero__container__image {
@@ -7,3 +9,26 @@
     height: 100%;
     border-radius: 40px;
 } 
+
+.hero__offer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 530px;
+}
+
+.mainPageTitle {
+    font-size: 72px;
+
+}
+
+.hero__button {
+    width: 200px;
+    height: 64px;
+    outline: none;
+    border: none;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+    text-align: center;
+    padding: 20px 78px 20px 78px;
+}
