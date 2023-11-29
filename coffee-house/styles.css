@@ -3,7 +3,7 @@ body {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
     color: #403F3D;
- 
+
 }
 .header__container {
     padding: 0 40px 0 40px;
@@ -14,10 +14,13 @@ body {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .header__menu--nav > *{
     margin-right: 40px;
+    color: #403F3D;
+    text-decoration: none;
 }
 .header__menu--nav > *:last-child{
     margin-right: 0;
