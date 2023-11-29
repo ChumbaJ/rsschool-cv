@@ -2,6 +2,7 @@
 @import url("components/hero.css");
 @import url("components/favoriteCoffee.css");
 @import url("components/about.css");
+@import url("components/mobileApp.css");
 
 body {
     background: #E1D4C9;
