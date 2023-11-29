@@ -10,6 +10,10 @@ body {
     color: #403F3D;
 }
 
+ul {
+    list-style-type: none; 
+}
+
 .container {
     padding: 0 40px;
 }
