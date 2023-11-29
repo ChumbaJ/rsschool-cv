@@ -12,3 +12,7 @@ body {
 .container {
     padding: 0 40px;
 }
+
+.sectionTitle {
+    font-size: 60px;
+}
