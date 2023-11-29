@@ -5,7 +5,9 @@ body {
     color: #403F3D;
  
 }
-
+.header__container {
+    padding: 0 40px 0 40px;
+}
 
 .header__menu {
     margin: 0;
