@@ -2,6 +2,7 @@
 @import url("components/hero.css");
 @import url("components/favoriteCoffee.css");
 @import url("components/about.css");
+
 body {
     background: #E1D4C9;
     font-family: 'Inter', sans-serif;
