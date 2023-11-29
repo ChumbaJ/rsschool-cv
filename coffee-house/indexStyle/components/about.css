@@ -1,3 +1,16 @@
 .about__title {
     margin: 0 0 40px 0;
 }
+
+.about__column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.about__column__bigBox {
+    width: 660px;
+    height: 590px;
+    border-radius: 20px;
+
+}
