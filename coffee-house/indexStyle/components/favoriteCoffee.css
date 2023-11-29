@@ -4,6 +4,21 @@
     align-items: center;
 }
 
+.favoriteCoffee__slider__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.favoriteCoffee__slider {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 .favoriteCoffee__slider--button {
     display: flex;
     justify-content: center;
@@ -24,4 +39,48 @@
 
 .favoriteCoffee__slider--button:hover > svg > path {
     stroke: rgb(214, 214, 214);
+}
+
+
+.favoriteCoffee__slider--item {
+    display: flex;
+    justify-content: center;
+}
+
+.favoriteCoffee__slider--item__container {
+    width: 480px;
+}
+.favoriteCoffee__slider--list {
+    padding: 0;
+    margin: 0;
+}
+.favoriteCoffee__slider--item--picture {
+    width: 480px;
+    height: 480px;
+    -webkit-user-drag: none;
+}
+
+.favoriteCoffee__slider--item--text {
+    text-align: center;
+}
+.favoriteCoffee__slider--item--name {
+    font-size: 24px;
+    font-weight: 600;
+}
+.favoriteCoffee__slider--item--cost {
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.favoriteCoffee__paginator {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.favoriteCoffee__paginator > * {
+    margin-right: 12px;
+}
+.favoriteCoffee__paginator > *:last-child {
+    margin: 0;
 }
