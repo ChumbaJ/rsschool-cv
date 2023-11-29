@@ -1,13 +1,16 @@
 .hero__container {
     height: 644px;
     color: #E1D4C9;
-    padding: 100px;
+    padding: 100px !important;
+    position: relative;
 }
 
 .hero__container__image {
-    width: 100%;
-    height: 100%;
     border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 } 
 
 .hero__offer {
@@ -17,7 +20,14 @@
     width: 530px;
 }
 
-.mainPageTitle {
+.hero__offer > * {
+    margin: 0 0 40px 0;
+}
+.hero__offer > *:last-child {
+    margin: 0;
+}
+
+#mainPageTitle {
     font-size: 72px;
 
 }
