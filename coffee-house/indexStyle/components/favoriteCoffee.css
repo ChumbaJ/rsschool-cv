@@ -3,3 +3,25 @@
     flex-flow: column nowrap;
     align-items: center;
 }
+
+.favoriteCoffee__slider--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #665F55;
+    border-radius: 50%;
+}
+.favoriteCoffee__slider--button:last-child {
+    transform: rotate(180deg);
+}
+
+.favoriteCoffee__slider--button:hover {
+    background-color: #665F55;
+}
+
+.favoriteCoffee__slider--button:hover > svg > path {
+    stroke: rgb(214, 214, 214);
+}
