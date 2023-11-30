@@ -35,6 +35,7 @@
 
 .footer__socialMedia--list > * {
     margin-right: 12px;
+    cursor: pointer;
 }
 
 .footer__socialMedia--list > *:last-child {
