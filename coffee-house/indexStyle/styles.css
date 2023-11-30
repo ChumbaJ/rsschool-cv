@@ -11,6 +11,11 @@ body {
     color: #403F3D;
 }
 
+p {
+    margin: 0;
+    padding: 0;
+}
+
 ul {
     padding: 0;
     margin: 0;
