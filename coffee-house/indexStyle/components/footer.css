@@ -44,10 +44,13 @@
 .footer__contacts {
     display: flex;
     flex-flow: column nowrap;
+    color: #E1D4C9;
 }
 
 .footer__contacts--title {
     margin-bottom: 40px;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 .footer__contacts--list {
