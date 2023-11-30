@@ -20,3 +20,13 @@
     background-color: transparent;
 
 }
+
+.mobileAppButton__description {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mobileAppButton__StoreName {
+    font-weight: 600;
+    font-size: 16px;
+}
