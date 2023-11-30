@@ -46,6 +46,8 @@
     align-items: center;
     padding: 0 0 0 67px;
 
+    cursor: pointer;
+
 }
 
 .appButton > svg {
