@@ -12,6 +12,7 @@
 }
 
 .appButton {
+    position: relative;
     width: 200px;
     height: 64px;
     padding: 12px, 20px, 12px, 20px;
@@ -21,14 +22,23 @@
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
 
 }
 
+.appButton > svg {
+    position: absolute;
+
+}
+
+.mobileAppButton__text {
+    text-align: left;
+}
 
 .mobileAppButton__description {
     font-weight: 600;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 .mobileAppButton__StoreName {
@@ -46,6 +56,4 @@
 #appButton--GooglePlay {
     width: 30.34px;
     height: 32.79px;
-
-
 }
