@@ -52,9 +52,12 @@
     width: 36px;
     height: 36px;
     padding: 1.8px, 4.94px, 2.55px, 4.65px;
+    left: 25px;
+    top: 12px;
 }
 
 #appButton--GooglePlay {
     width: 30.34px;
     height: 32.79px;
+    left: 31px;
 }
