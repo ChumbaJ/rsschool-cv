@@ -1,0 +1,23 @@
+@import url("/coffee-house/indexStyle/components/footer.css");
+
+body {
+    background: #E1D4C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #403F3D;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+}
+
+.container {
+    padding: 0 40px;
+}
