@@ -57,6 +57,7 @@
 .footer__contacts--list {
     display: flex;
     flex-flow: column nowrap;
+    padding: 0 0 0 26px;
 
 }
 
@@ -69,6 +70,7 @@
 .footer__contacts--list > * {
     position: relative;
     margin-bottom: 16px;
+    
 }
 
 .footer__contacts--list > *:last-child {
