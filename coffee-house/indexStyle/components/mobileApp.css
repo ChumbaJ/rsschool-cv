@@ -22,8 +22,9 @@
 
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 0 0 0 67px;
 
 }
 
