@@ -5,6 +5,13 @@
 
 }
 
+.mobileApp__buttons__container {
+    display: flex;
+}
+
+.mobileApp__appStore {
+    margin-right: 20px;
+}
 
 .mobileApp__mobilesImage {
     height: 630px;
