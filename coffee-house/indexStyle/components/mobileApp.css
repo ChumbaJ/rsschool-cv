@@ -5,8 +5,16 @@
 
 }
 
+.mobileApp__title {
+    margin: 0 0 40px 0;
+}
+
 .mobileApp__buttons__container {
     display: flex;
+}
+
+.mobileApp__description {
+    margin: 0 0 40px 0;
 }
 
 .mobileApp__appStore {
