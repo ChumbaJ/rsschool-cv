@@ -1,7 +1,11 @@
+.coffee__list__container {
+    display: flex;
+    justify-content: center;
+}
+
 .coffee__list {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
 }
 
 .coffee__list--item {
@@ -11,6 +15,7 @@
     border-radius: 40px;
     display: flex;
     flex-flow: column nowrap;
+    /* margin-right: 40px; */
 }
 
 .coffee__list--item {
