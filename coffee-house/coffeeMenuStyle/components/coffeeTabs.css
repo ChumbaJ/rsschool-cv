@@ -23,6 +23,10 @@
 
 }
 
+.coffee__textBox {
+    margin: 0 0 12px 0;
+}
+
 .coffee__textBox__title {
     margin: 0 0 12px 0;
     font-size: 24px;
