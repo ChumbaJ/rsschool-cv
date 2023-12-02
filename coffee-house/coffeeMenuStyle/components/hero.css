@@ -11,3 +11,16 @@
     text-align: center;
     margin: 0 0 40px 0;
 }
+
+.hero__tabs {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hero__tabs > * {
+    margin: 0 16px 0 0;
+}
+
+.hero__tabs > *:last-child {
+    margin: 0;
+}
