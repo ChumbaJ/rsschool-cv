@@ -22,3 +22,9 @@
     overflow: hidden;
 
 }
+
+.coffee__textBox__title {
+    margin: 0 0 12px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
