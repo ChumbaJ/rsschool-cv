@@ -19,9 +19,22 @@
 }
 
 .hero__tabs > * {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
     margin: 0 16px 0 0;
 }
 
 .hero__tabs > *:last-child {
     margin: 0;
+}
+
+.hero__tabs--icon {
+    width: 30px;
+    height: 30px;
+    background-color: #C1B6AD;
+}
+
+.hero__tabs--optionText {
+    font-weight: 600;
 }
