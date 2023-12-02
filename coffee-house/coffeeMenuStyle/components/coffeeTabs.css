@@ -9,6 +9,8 @@
     width: min-content;
     border: 1px solid #C1B6AD;
     border-radius: 40px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 
 .coffee__list--item {
@@ -24,8 +26,11 @@
 }
 
 .coffee__description {
-    height: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     padding: 20px;
+    flex-grow: 1;
 }
 
 
