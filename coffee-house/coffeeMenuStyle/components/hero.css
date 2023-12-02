@@ -1,0 +1,14 @@
+.hero__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__title {
+    font-size: 60px;
+    width: 800px;
+    font-weight: 600;
+    text-align: center;
+    margin: 0;
+}
