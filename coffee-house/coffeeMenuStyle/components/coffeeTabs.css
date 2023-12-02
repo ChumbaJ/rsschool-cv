@@ -25,6 +25,10 @@
 
 }
 
+.coffee__list--itemPicture > img {
+    -webkit-user-drag: none;
+}
+
 .coffee__description {
     display: flex;
     flex-flow: column nowrap;
