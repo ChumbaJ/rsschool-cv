@@ -23,9 +23,11 @@
 
 }
 
-.coffee__textBox {
-    margin: 0 0 12px 0;
+.coffee__description {
+    height: 100%;
+    padding: 20px;
 }
+
 
 .coffee__textBox__title {
     margin: 0 0 12px 0;
