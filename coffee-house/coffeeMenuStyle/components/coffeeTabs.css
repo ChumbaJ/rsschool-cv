@@ -5,6 +5,7 @@
 
 .coffee__list--item {
     height: 506px;
+    width: min-content;
     border: 1px solid #C1B6AD;
     border-radius: 40px;
 }
