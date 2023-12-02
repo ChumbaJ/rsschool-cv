@@ -1,6 +1,7 @@
 .coffee__list {
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .coffee__list--item {
@@ -8,6 +9,10 @@
     width: min-content;
     border: 1px solid #C1B6AD;
     border-radius: 40px;
+}
+
+.coffee__list--item {
+    margin-bottom: 40px;
 }
 
 .coffee__list--itemPicture {
