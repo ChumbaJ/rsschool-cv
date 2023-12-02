@@ -26,6 +26,7 @@
     border: 1px solid #C1B6AD;
     border-radius: 100px;
     padding: 8px 16px 8px 8px;
+    cursor: pointer;
 }
 
 .hero__tabs > *:last-child {
@@ -43,6 +44,19 @@
     margin-right: 8px;
 }
 
+
+
 .hero__tabs--optionText {
     font-weight: 600;
+    user-select: none;
+}
+
+.hero__tabs > *:hover {
+    background-color: #665F55;
+}
+.hero__tabs > *:hover > .hero__tabs--icon { 
+    background-color: #E1D4C9;
+}
+.hero__tabs > *:hover > .hero__tabs--optionText {
+    color: #E1D4C9;
 }
