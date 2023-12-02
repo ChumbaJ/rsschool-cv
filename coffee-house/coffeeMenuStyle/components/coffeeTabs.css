@@ -1,0 +1,17 @@
+.coffee__list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coffee__list--item {
+    height: 506px;
+    border: 1px solid #C1B6AD;
+    border-radius: 40px;
+}
+
+.coffee__list--itemPicture {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+
+}
