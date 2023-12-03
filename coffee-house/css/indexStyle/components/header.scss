@@ -2,19 +2,19 @@
 @import "../../layout.scss";
 
 .header__container {
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
 }
 
 .header__menu {
     margin: 0;
-    padding: 0 23px 0 0;
+    padding: 0 rem(23px) 0 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .header__menu--nav > *{
-    margin-right: 40px;
+    margin-right: rem(40px);
     color: #403F3D;
     text-decoration: none;
 }
@@ -33,12 +33,12 @@
 }
 
 .header__menu--coffeeMenuButton__name {
-    font-size: 16px;
+    font-size: rem(16px);
     font-weight: 600;
 }
 
 .header__menu--coffeeMenuButton > svg {
     position: absolute;
-    right: -24px;
-    top: -2.5px;
+    right: rem(-24px);
+    top: -2.rem(5px);
 }

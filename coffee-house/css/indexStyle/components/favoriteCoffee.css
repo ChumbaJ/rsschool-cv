@@ -1,9 +1,77 @@
+html, body {
+  height: 100%;
+  font-size: 16px;
+}
+@media screen and (max-width: 786px) {
+  html, body {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+body {
+  background: #E1D4C9;
+  font-family: "Inter", sans-serif;
+  color: #403F3D;
+  margin: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  padding: 0 2.5rem;
+}
+
+.sectionTitle {
+  font-size: 3.75rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
 .favoriteCoffee {
-  margin: 0 0 100px 0;
+  margin: 0 0 6.25rem 0;
 }
 
 .favoriteCoffee__title {
-  margin: 0 0 40px 0;
+  margin: 0 0 2.5rem 0;
   text-align: center;
 }
 
@@ -49,7 +117,7 @@
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
-  margin-bottom: 44px;
+  margin-bottom: 2.75rem;
 }
 
 .favoriteCoffee__slider--button {
@@ -62,10 +130,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 3.75rem;
+  height: 3.75rem;
   background-color: transparent;
-  border: 1px solid #665F55;
+  border: 0.0625rem solid #665F55;
   border-radius: 50%;
 }
 
@@ -92,7 +160,7 @@
 }
 
 .favoriteCoffee__slider--item__container {
-  width: 480px;
+  width: 30rem;
 }
 
 .favoriteCoffee__slider--list {
@@ -101,8 +169,8 @@
 }
 
 .favoriteCoffee__slider--item--picture {
-  width: 480px;
-  height: 480px;
+  width: 30rem;
+  height: 30rem;
   -webkit-user-drag: none;
 }
 
@@ -111,13 +179,13 @@
 }
 
 .favoriteCoffee__slider--item--name {
-  font-size: rem(24px);
+  font-size: 1.5rem;
   font-weight: 600;
 }
 
 .favoriteCoffee__slider--item--cost {
   font-weight: 600;
-  font-size: rem(24px);
+  font-size: 1.5rem;
 }
 
 .favoriteCoffee__paginator {
@@ -130,7 +198,7 @@
 }
 
 .favoriteCoffee__paginator > * {
-  margin-right: 12px;
+  margin-right: 0.75rem;
 }
 
 .favoriteCoffee__paginator > *:last-child {

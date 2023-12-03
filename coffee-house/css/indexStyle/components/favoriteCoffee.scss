@@ -1,9 +1,12 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
 .favoriteCoffee {
-    margin: 0 0 100px 0;
+    margin: 0 0 rem(100px) 0;
 }
 
 .favoriteCoffee__title {
-    margin: 0 0 40px 0;
+    margin: 0 0 rem(40px) 0;
     text-align: center;
 }
 
@@ -26,17 +29,17 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-bottom: 44px;
+    margin-bottom: rem(44px);
 }
 
 .favoriteCoffee__slider--button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: rem(60px);
+    height: rem(60px);
     background-color: transparent;
-    border: 1px solid #665F55;
+    border: rem(1px) solid #665F55;
     border-radius: 50%;
 }
 .favoriteCoffee__slider--button:last-child {
@@ -58,15 +61,15 @@
 }
 
 .favoriteCoffee__slider--item__container {
-    width: 480px;
+    width: rem(480px);
 }
 .favoriteCoffee__slider--list {
     padding: 0;
     margin: 0;
 }
 .favoriteCoffee__slider--item--picture {
-    width: 480px;
-    height: 480px;
+    width: rem(480px);
+    height: rem(480px);
     -webkit-user-drag: none;
 }
 
@@ -89,7 +92,7 @@
 }
 
 .favoriteCoffee__paginator > * {
-    margin-right: 12px;
+    margin-right: rem(12px);
 }
 .favoriteCoffee__paginator > *:last-child {
     margin: 0;

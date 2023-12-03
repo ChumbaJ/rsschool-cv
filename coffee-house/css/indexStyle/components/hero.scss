@@ -1,5 +1,8 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
 .hero {
-    margin: 0 0 100px 0;
+    margin: 0 0 rem(100px) 0;
 }
 
 .hero__container {
@@ -8,39 +11,39 @@
 }
 
 .hero__offer__container {
-    padding: 100px;
+    padding: rem(100px);
     background-image: url("../../../icons/img-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 40px;
+    border-radius: rem(40px);
 }
 .hero__offer {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    width: 530px;
+    width: rem(530px);
 }
 
 .hero__offer > * {
-    margin: 0 0 40px 0;
+    margin: 0 0 rem(40px) 0;
 }
 .hero__offer > *:last-child {
     margin: 0;
 }
 
 #mainPageTitle {
-    font-size: 72px;
+    font-size: rem(72px);
 
 }
 
 .hero__button {
-    width: 200px;
-    height: 64px;
+    width: rem(200px);
+    height: rem(64px);
     outline: none;
     border: none;
-    border-radius: 100px;
+    border-radius: rem(100px);
     background-color: #E1D4C9;
     text-align: center;
-    padding: 20px 78px 20px 78px;
+    padding: rem(20px) rem(78px) rem(20px) rem(78px);
     font-weight: 600;
 }

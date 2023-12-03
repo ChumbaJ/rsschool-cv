@@ -1,82 +1,180 @@
+html, body {
+  height: 100%;
+  font-size: 16px;
+}
+@media screen and (max-width: 786px) {
+  html, body {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 480px) {
+  html, body {
+    font-size: 14px;
+  }
+}
+
+body {
+  background: #E1D4C9;
+  font-family: "Inter", sans-serif;
+  color: #403F3D;
+  margin: 0;
+}
+
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  padding: 0 2.5rem;
+}
+
+.sectionTitle {
+  font-size: 3.75rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
 .footer {
-    padding: 0 40px 40px 40px;
+  padding: 0 2.5rem 2.5rem 2.5rem;
 }
 
 .footer__container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-    background-color: #665F55;
-    border-radius: 40px;
-    height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #665F55;
+  border-radius: 2.5rem;
+  height: 28.125rem;
 }
 
 .footer__socialMedia {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .footer__socialMedia--title {
-    margin: 0 0 40px 0;
+  margin: 0 0 2.5rem 0;
 }
 
 .footer__socialMedia--list {
-    display: flex;
-    flex-flow: row nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
 }
 
 .footer__socialMedia--item {
-    width: 60px;
-    height: 60px;
-    border: 1px solid #E1D4C9;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 3.75rem;
+  height: 3.75rem;
+  border: 0.0625rem solid #E1D4C9;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .footer__socialMedia--list > * {
-    margin-right: 12px;
-    cursor: pointer;
+  margin-right: 0.75rem;
+  cursor: pointer;
 }
 
 .footer__socialMedia--list > *:last-child {
-    margin: 0;
+  margin: 0;
 }
 
 .footer__contacts {
-    display: flex;
-    flex-flow: column nowrap;
-    color: #E1D4C9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  color: #E1D4C9;
 }
 
 .footer__contacts--title {
-    margin-bottom: 40px;
-    font-size: 24px;
-    font-weight: 600;
+  margin-bottom: 2.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .footer__contacts--list {
-    display: flex;
-    flex-flow: column nowrap;
-    padding: 0 0 0 26px;
-
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  padding: 0 0 0 1.625rem;
 }
 
 .footer__contacts--list > li > svg {
-    position: absolute;
-    left: -26px;
-    top: -2px;
+  position: absolute;
+  left: -1.625rem;
+  top: -0.125rem;
 }
 
 .footer__contacts--list > * {
-    position: relative;
-    margin-bottom: 16px;
-    
+  position: relative;
+  margin-bottom: 1rem;
 }
 
 .footer__contacts--list > *:last-child {
-    margin: 0;
+  margin: 0;
 }

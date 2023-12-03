@@ -1,3 +1,6 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
 .coffee__list__container {
     display: flex;
     justify-content: center;
@@ -9,23 +12,23 @@
 }
 
 .coffee__list--item {
-    height: 506px;
+    height: rem(506px);
     width: min-content;
-    border: 1px solid #C1B6AD;
-    border-radius: 40px;
+    border: rem(1px) solid #C1B6AD;
+    border-radius: rem(40px);
     display: flex;
     flex-flow: column nowrap;
-    /* margin-right: 40px; */
+    /* margin-right: rem(40px); */
 }
 
 .coffee__list--item {
-    margin-bottom: 40px;
+    margin-bottom: rem(40px);
 }
 
 .coffee__list--itemPicture {
-    width: 310px;
-    height: 310px;
-    border-radius: 40px;
+    width: rem(310px);
+    height: rem(310px);
+    border-radius: rem(40px);
     overflow: hidden;
 
 }
@@ -38,18 +41,18 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    padding: 20px;
+    padding: rem(20px);
     flex-grow: 1;
 }
 
 
 .coffee__textBox--title {
-    margin: 0 0 12px 0;
-    font-size: 24px;
+    margin: 0 0 rem(12px) 0;
+    font-size: rem(24px);
     font-weight: 600;
 }
 
 .coffee__price {
     font-weight: 600;
-    font-size: 24px;
+    font-size: rem(24px);
 }
