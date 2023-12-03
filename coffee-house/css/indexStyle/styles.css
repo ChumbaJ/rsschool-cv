@@ -1,6 +1,11 @@
 
+/* media */
+@import url("../media.scss");
+
+/* setups */
 @import url("../layout.css");
 
+/* components  */
 @import url("components/header.css");
 @import url("components/hero.css");
 @import url("components/favoriteCoffee.css");
