@@ -48,7 +48,7 @@
 }
 
 .about_column--smallBox {
-  width: rem(660px);
-  height: rem(430px);
+  width: 660px;
+  height: 430px;
   border-radius: 20px;
 }

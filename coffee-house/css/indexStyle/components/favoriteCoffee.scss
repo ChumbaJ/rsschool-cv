@@ -73,12 +73,12 @@
     text-align: center;
 }
 .favoriteCoffee__slider--item--name {
-    font-size: 24px;
+    font-size: rem(24px);
     font-weight: 600;
 }
 .favoriteCoffee__slider--item--cost {
     font-weight: 600;
-    font-size: 24px;
+    font-size: rem(24px);
 }
 
 .favoriteCoffee__paginator {

@@ -1,3 +1,5 @@
+$baseFontSize: 16px;
+
 html, body {
     height: 100%;
 }
@@ -5,7 +7,7 @@ html, body {
 body {
     background: #E1D4C9;
     font-family: 'Inter', sans-serif;
-    font-size: 16px;
+    font-size: $baseFontSize;
     color: #403F3D;
     margin: 0;
 }
@@ -17,12 +19,13 @@ body {
     flex-direction: column;
 }
 
+
 .container {
-    padding: 0 40px;
+    padding: 0 rem(40px);
 }
 
 .sectionTitle {
-    font-size: 60px;
+    font-size: rem(60px);
 }
 
 * {
