@@ -1,5 +1,10 @@
 $baseFontSize: 16px;
 
+// Breakpoints:
+
+$tablets: 786px;
+$phones: 480px;
+
 html, body {
     height: 100%;
 }
