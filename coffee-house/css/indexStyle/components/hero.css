@@ -9,7 +9,7 @@
 
 .hero__offer__container {
     padding: 100px;
-    background-image: url("/coffee-house/icons/img-hero.jpg");
+    background-image: url("../../../icons/img-hero.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 40px;
