@@ -1,0 +1,55 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #E1D4C9;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #403F3D;
+    margin: 0;
+}
+
+.wrapper {
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    padding: 0 40px;
+}
+
+.sectionTitle {
+    font-size: 60px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+}
+
+ul li {
+    list-style: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+} */

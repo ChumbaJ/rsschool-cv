@@ -1,0 +1,55 @@
+.coffee__list__container {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee__list {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.coffee__list--item {
+    height: 506px;
+    width: min-content;
+    border: 1px solid #C1B6AD;
+    border-radius: 40px;
+    display: flex;
+    flex-flow: column nowrap;
+    /* margin-right: 40px; */
+}
+
+.coffee__list--item {
+    margin-bottom: 40px;
+}
+
+.coffee__list--itemPicture {
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    overflow: hidden;
+
+}
+
+.coffee__list--itemPicture > img {
+    -webkit-user-drag: none;
+}
+
+.coffee__description {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+
+.coffee__textBox--title {
+    margin: 0 0 12px 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.coffee__price {
+    font-weight: 600;
+    font-size: 24px;
+}
