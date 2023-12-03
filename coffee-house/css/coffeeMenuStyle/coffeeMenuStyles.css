@@ -1,26 +1,6 @@
+@import url("../layout.css");
+
 @import url("../indexStyle/components/footer.css");
 @import url("../indexStyle/components/header.css");
 @import url("components/coffeeTabs.css");
 @import url("components/hero.css");
-
-body {
-    background: #E1D4C9;
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    color: #403F3D;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    padding: 0;
-    margin: 0;
-    list-style-type: none; 
-}
-
-.container {
-    padding: 0 40px;
-}
