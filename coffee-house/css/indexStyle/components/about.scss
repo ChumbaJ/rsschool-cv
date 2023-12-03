@@ -1,0 +1,42 @@
+.about {
+    margin: 0 0 100px 0;
+}
+
+.about__title {
+    margin: 0 0 40px 0;
+}
+
+.about__imageColumns {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.about__column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.about__column > * {
+    overflow: hidden;
+    margin: 0 0 40px 0;
+}
+
+.about__column > *:last-child {
+    margin: 0;
+}
+
+.about_column--bigBox {
+    width: 660px;
+    height: 590px;
+    border-radius: 20px;
+
+}
+
+.about_column--smallBox {
+    width: rem(660px);
+    height: rem(430px);
+    border-radius: 20px;
+
+}
