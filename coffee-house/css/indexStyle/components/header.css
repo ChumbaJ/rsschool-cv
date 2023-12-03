@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-  padding: 0 40px;
+  padding: 0 2.5rem;
 }
 
 .sectionTitle {
@@ -67,12 +67,12 @@ button {
 }
 
 .header__container {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .header__menu {
   margin: 0;
-  padding: 0 23px 0 0;
+  padding: 0 1.4375rem 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -85,9 +85,14 @@ button {
 }
 
 .header__menu--nav > * {
-  margin-right: 40px;
+  margin-right: 2.5rem;
   color: #403F3D;
   text-decoration: none;
+}
+@media screen and (max-width: 786px) {
+  .header__menu--nav > * {
+    display: none;
+  }
 }
 
 .header__menu--nav > *:last-child {
@@ -108,12 +113,12 @@ button {
 }
 
 .header__menu--coffeeMenuButton__name {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
 }
 
 .header__menu--coffeeMenuButton > svg {
   position: absolute;
-  right: -24px;
-  top: -2.5px;
+  right: -1.5rem;
+  top: -0.1875rem;
 }

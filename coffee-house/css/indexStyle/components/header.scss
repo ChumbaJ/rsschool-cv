@@ -17,6 +17,10 @@
     margin-right: rem(40px);
     color: #403F3D;
     text-decoration: none;
+    
+    @include tablets {
+        display: none;
+    }
 }
 .header__menu--nav > *:last-child{
     margin-right: 0;
@@ -40,5 +44,5 @@
 .header__menu--coffeeMenuButton > svg {
     position: absolute;
     right: rem(-24px);
-    top: -2.rem(5px);
+    top: rem(-3px);
 }
