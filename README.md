@@ -1,1 +1,1 @@
-https://ChumbaJ.github.io/rsschool-cv/
+https://ChumbaJ.github.io/rsschool-cv/cv.md
