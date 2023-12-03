@@ -7,7 +7,14 @@
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+    
+    & > * {
+        width: 40%;
+    }
+}
 
+.mobileApp__content {
+    min-width: 390px;
 }
 
 .mobileApp__title {
@@ -27,8 +34,8 @@
 }
 
 .mobileApp__mobilesImage {
-    height: 630px;
-    width: 630px;
+    height: auto;
+    width: 47%;
 }
 
 .appButton {

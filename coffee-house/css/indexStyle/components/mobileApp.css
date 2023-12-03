@@ -1,85 +1,106 @@
 .mobileApp {
-    margin: 0 0 100px 0;
+  margin: 0 0 100px 0;
 }
 
 .mobileApp__conatiner {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.mobileApp__conatiner > * {
+  width: 40%;
+}
 
+.mobileApp__content {
+  min-width: 390px;
 }
 
 .mobileApp__title {
-    margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
 .mobileApp__buttons__container {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .mobileApp__description {
-    margin: 0 0 40px 0;
+  margin: 0 0 40px 0;
 }
 
 .mobileApp__appStore {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .mobileApp__mobilesImage {
-    height: 630px;
-    width: 630px;
+  height: auto;
+  width: 47%;
 }
 
 .appButton {
-    position: relative;
-    width: 200px;
-    height: 64px;
-    padding: 12px, 20px, 12px, 20px;
-    border-radius: 100px;
-    border: 1px solid #665F55;
-    background-color: transparent;
-
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 0 0 0 67px;
-
-    cursor: pointer;
-
+  position: relative;
+  width: 200px;
+  height: 64px;
+  padding: 12px, 20px, 12px, 20px;
+  border-radius: 100px;
+  border: 1px solid #665F55;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 0 67px;
+  cursor: pointer;
 }
 
 .appButton > svg {
-    position: absolute;
-
+  position: absolute;
 }
 
 .mobileAppButton__text {
-    text-align: left;
+  text-align: left;
 }
 
 .mobileAppButton__description {
-    font-weight: 600;
-    font-size: 10px;
+  font-weight: 600;
+  font-size: 10px;
 }
 
 .mobileAppButton__StoreName {
-    font-weight: 600;
-    font-size: 16px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
-
 #appButton--appStore {
-    width: 36px;
-    height: 36px;
-    padding: 1.8px, 4.94px, 2.55px, 4.65px;
-    left: 25px;
-    top: 12px;
+  width: 36px;
+  height: 36px;
+  padding: 1.8px, 4.94px, 2.55px, 4.65px;
+  left: 25px;
+  top: 12px;
 }
 
 #appButton--GooglePlay {
-    width: 30.34px;
-    height: 32.79px;
-    left: 31px;
+  width: 30.34px;
+  height: 32.79px;
+  left: 31px;
 }

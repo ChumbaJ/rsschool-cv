@@ -1,41 +1,51 @@
 .header__container {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .header__menu {
-    margin: 0;
-    padding: 0 23px 0 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  margin: 0;
+  padding: 0 23px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.header__menu--nav > *{
-    margin-right: 40px;
-    color: #403F3D;
-    text-decoration: none;
+.header__menu--nav > * {
+  margin-right: 40px;
+  color: #403F3D;
+  text-decoration: none;
 }
-.header__menu--nav > *:last-child{
-    margin-right: 0;
+
+.header__menu--nav > *:last-child {
+  margin-right: 0;
 }
+
 .header__menu--coffeeMenuButton {
-    display: flex;
-    position: relative;
-    background-color: transparent;
-    border: 0;
-    outline: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
 }
 
 .header__menu--coffeeMenuButton__name {
-    font-size: 16px;
-    font-weight: 600;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .header__menu--coffeeMenuButton > svg {
-    position: absolute;
-    right: -24px;
-    top: -2.5px;
+  position: absolute;
+  right: -24px;
+  top: -2.5px;
 }

@@ -16,11 +16,17 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+    width: 47%;
 }
 
 .about__column > * {
     overflow: hidden;
     margin: 0 0 40px 0;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .about__column > *:last-child {
@@ -28,15 +34,15 @@
 }
 
 .about_column--bigBox {
-    width: 660px;
-    height: 590px;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
 
 }
 
 .about_column--smallBox {
-    width: 660px;
-    height: 430px;
+    width: 100%;
+    height: auto;
     border-radius: 20px;
 
 }
