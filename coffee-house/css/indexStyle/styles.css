@@ -1,10 +1,6 @@
-
 /* media */
-@import url("../media.scss");
-
 /* setups */
 @import url("../layout.css");
-
 /* components  */
 @import url("components/header.css");
 @import url("components/hero.css");
@@ -12,6 +8,3 @@
 @import url("components/about.css");
 @import url("components/mobileApp.css");
 @import url("components/footer.css");
-
-
-
