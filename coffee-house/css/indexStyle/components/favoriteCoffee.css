@@ -134,6 +134,13 @@ button {
   width: 100%;
   margin-bottom: 2.75rem;
 }
+@media screen and (max-width: 380px) {
+  .favoriteCoffee__slider {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
 
 .favoriteCoffee__slider--button {
   display: -webkit-box;
@@ -202,6 +209,12 @@ button {
   width: 100%;
   height: auto;
   -webkit-user-drag: none;
+}
+@media screen and (max-width: 380px) {
+  .favoriteCoffee__slider--item--picture {
+    width: 348px;
+    height: 348px;
+  }
 }
 
 .favoriteCoffee__slider--item--text {

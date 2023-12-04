@@ -30,6 +30,10 @@
     align-items: center;
     width: 100%;
     margin-bottom: rem(44px);
+
+    @include phones {
+        justify-content: center;
+    }
 }
 
 .favoriteCoffee__slider--button {
@@ -76,6 +80,7 @@
 .favoriteCoffee__slider--list {
     padding: 0;
     margin: 0;
+
 }
 .favoriteCoffee__slider--item--picture {
     max-width: rem(480px);
@@ -83,6 +88,11 @@
     height: auto;
 
     -webkit-user-drag: none;
+
+    @include phones {
+        width: 348px;
+        height: 348px;
+    }
 }
 
 .favoriteCoffee__slider--item--text {
