@@ -4,12 +4,26 @@
 .coffee__list__container {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .coffee__list {
     display: flex;
     flex-flow: row wrap;
+
+    @include tablets {
+        justify-content: center;
+
+        & > li:nth-of-type(even) {
+            margin: 0;
+        }
+
+        & > li:nth-child(n+5) {
+            display: none;
+        }
+    }
 }
+
 
 .coffee__list--item {
     height: rem(506px);
@@ -18,16 +32,13 @@
     border-radius: rem(40px);
     display: flex;
     flex-flow: column nowrap;
-    /* margin-right: rem(40px); */
+    margin: 0 40px 40px 0;
 }
 
-.coffee__list--item {
-    margin-bottom: rem(40px);
-}
 
 .coffee__list--itemPicture {
-    width: rem(310px);
-    height: rem(310px);
+    width: 310px;
+    height: 310px;
     border-radius: rem(40px);
     overflow: hidden;
 
@@ -37,7 +48,7 @@
     -webkit-user-drag: none;
 }
 
-.coffee__description {
+.coffee--description {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
