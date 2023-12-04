@@ -216,3 +216,16 @@ button {
   height: 4.9375rem;
   left: 1.9375rem;
 }
+
+@media (hover: hover) {
+  .appButton:hover {
+    background-color: #665F55;
+    color: #E1D4C9;
+  }
+  .appButton:hover #appButton--appStore > * {
+    fill: #E1D4C9;
+  }
+  .appButton:hover #appButton--GooglePlay > * {
+    fill: #E1D4C9;
+  }
+}

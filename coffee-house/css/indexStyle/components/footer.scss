@@ -64,6 +64,20 @@
 .footer__socialMedia--list > * {
     margin-right: rem(12px);
     cursor: pointer;
+
+
+}
+
+@media (hover: hover) {
+    .footer__socialMedia--list > *:hover {
+        background-color:#E1D4C9;
+
+        & > svg > path {
+            stroke: #403F3D;
+
+        }
+    }
+
 }
 
 .footer__socialMedia--list > *:last-child {

@@ -181,6 +181,14 @@ button {
   cursor: pointer;
 }
 
+@media (hover: hover) {
+  .footer__socialMedia--list > *:hover {
+    background-color: #E1D4C9;
+  }
+  .footer__socialMedia--list > *:hover > svg > path {
+    stroke: #403F3D;
+  }
+}
 .footer__socialMedia--list > *:last-child {
   margin: 0;
 }

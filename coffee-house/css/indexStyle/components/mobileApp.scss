@@ -116,3 +116,23 @@
     height: rem(79px);
     left: rem(31px);
 }
+
+@media (hover: hover) {
+    .appButton:hover {
+        background-color: #665F55;
+        color: #E1D4C9;
+        #appButton--appStore  {
+            & > * {
+                fill: #E1D4C9;
+            }
+        }
+        #appButton--GooglePlay {
+            & > * {
+                fill: #E1D4C9;
+            }
+        }
+    }
+
+
+
+}
