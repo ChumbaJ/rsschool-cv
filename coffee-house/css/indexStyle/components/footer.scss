@@ -13,12 +13,33 @@
     background-color: #665F55;
     border-radius: rem(40px);
     height: rem(450px);
+
+    @include tablets{
+        height: fit-content;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 100px 60px;
+    }
+
+    @include phones {
+        padding: 60px 16px;
+        max-height: 526px;
+    }
 }
 
 .footer__socialMedia {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+
+    @include tablets {
+        margin-bottom: 100px;
+    }
+
+    @include phones {
+        margin-bottom: 40px;
+    }
 }
 
 .footer__socialMedia--title {
