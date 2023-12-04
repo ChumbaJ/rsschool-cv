@@ -17,12 +17,26 @@
     background-size: cover;
     border-radius: rem(40px);
     background-position: center;
+    max-height: 664px;
+    
+    @include tablets {
+        padding: 100px 60px;
+    }
+
+    @media screen and (max-width: 500px){
+        padding: 60px 16px;
+    }
+
+    @include phones {
+        max-height: 552px;
+    }
+
 }
 .hero__offer {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-    width: rem(530px);
+    max-width: rem(530px);
 }
 
 .hero__offer > * {
@@ -34,7 +48,29 @@
 
 #mainPageTitle {
     font-size: rem(72px);
+    @include tablets {
+        font-size: rem(62px);
+    }
+    @media screen and (max-width: 675px) {
+        font-size: rem(48px);
+    }
+    @media screen and (max-width: 500px) {
+        font-size: rem(42px);
+    }
 
+    @include phones {
+        font-size: rem(42px);
+    }
+    @media screen and (max-width: 365px) {
+        font-size: rem(36px);
+    }
+    @media screen and (max-width: 320px) {
+        font-size: rem(30px);
+    }
+}
+
+#mainPageTitle__description {
+    line-height: rem(24px);
 }
 
 .hero__button {
