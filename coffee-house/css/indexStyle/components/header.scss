@@ -11,17 +11,53 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @include tablets {
+        padding: 0;
+    }
 }
 
 .header__menu--nav > *{
     margin-right: rem(40px);
     color: #403F3D;
     text-decoration: none;
-    
+
     @include tablets {
         display: none;
     }
 }
+
+.header__burger-menu {
+    display: none;
+
+    width: 40px;
+    height: 40px;
+    border: 1px solid #665F55;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    
+    & > svg {
+        margin-bottom: 6px;
+        height: 3px;
+        width: 16px;
+    }
+
+    & > svg:last-child {
+        margin: 0;
+    }
+
+    @include tablets {
+        display: flex;
+
+    }
+
+
+    
+}
+
+
 .header__menu--nav > *:last-child{
     margin-right: 0;
 }
@@ -34,6 +70,10 @@
     padding: 0;
     margin: 0;
     cursor: pointer;
+
+    @include tablets {
+        display: none;  
+    }
 }
 
 .header__menu--coffeeMenuButton__name {

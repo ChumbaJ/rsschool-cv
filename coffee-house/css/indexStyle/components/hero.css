@@ -81,6 +81,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 2.5rem;
+  background-position: center;
 }
 
 .hero__offer {
