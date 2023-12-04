@@ -102,6 +102,24 @@ button {
   text-align: center;
   margin: 0 0 2.5rem 0;
 }
+@media screen and (max-width: 786px) {
+  .hero--title {
+    width: 37.5rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  .hero--title {
+    font-size: 2.625rem;
+    width: 100%;
+    max-width: 31.25rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .hero--title {
+    width: 14.375rem;
+    font-size: 2rem;
+  }
+}
 
 .hero__tabs {
   display: -webkit-box;
@@ -129,6 +147,14 @@ button {
   border-radius: 6.25rem;
   padding: 0.5rem 1rem 0.5rem 0.5rem;
   cursor: pointer;
+}
+@media screen and (max-width: 380px) {
+  .hero__tabs > * {
+    margin-right: 8px;
+  }
+  .hero__tabs > *:last-child {
+    margin: 0;
+  }
 }
 
 .hero__tabs > *:last-child {
