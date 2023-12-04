@@ -77,12 +77,15 @@
     user-select: none;
 }
 
-.hero__tabs > *:hover {
-    background-color: #665F55;
+@media (hover: hover) {
+    .hero__tabs > *:hover {
+        background-color: #665F55;
+    }
+    .hero__tabs > *:hover > .hero__tabs--icon { 
+        background-color: #E1D4C9;
+    }
+    .hero__tabs > *:hover > .hero__tabs--optionText {
+        color: #E1D4C9;
+    }
 }
-.hero__tabs > *:hover > .hero__tabs--icon { 
-    background-color: #E1D4C9;
-}
-.hero__tabs > *:hover > .hero__tabs--optionText {
-    color: #E1D4C9;
-}
+

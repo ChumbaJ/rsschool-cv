@@ -59,13 +59,17 @@
     transform: rotate(180deg);
 }
 
-.favoriteCoffee__slider--button:hover {
-    background-color: #665F55;
+@media (hover: hover) {
+    .favoriteCoffee__slider--button:hover {
+        background-color: #665F55;
+    }
+    
+    .favoriteCoffee__slider--button:hover > svg > path {
+        stroke: rgb(214, 214, 214);
+    }
 }
 
-.favoriteCoffee__slider--button:hover > svg > path {
-    stroke: rgb(214, 214, 214);
-}
+
 
 
 .favoriteCoffee__slider--item {
