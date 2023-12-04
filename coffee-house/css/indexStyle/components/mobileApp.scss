@@ -1,0 +1,138 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
+.mobileApp {
+    margin: 0 0 rem(100px) 0;
+}
+
+.mobileApp__conatiner {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    & > * {
+        width: 40%;
+    }
+
+    @include tablets {
+        flex-flow: column nowrap;
+    }
+}
+
+.mobileApp__content {
+    min-width: rem(390px);
+
+    @include tablets {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+}
+
+.mobileApp__title {
+    margin: 0 0 rem(40px) 0;
+}
+
+.mobileApp__buttons__container {
+    display: flex;
+}
+
+.mobileApp__description {
+    margin: 0 0 rem(40px) 0;
+}
+
+.mobileApp__appStore {
+    margin-right: rem(20px);
+}
+
+.mobileApp__mobilesImage {
+    height: auto;
+    width: 47%;
+
+    @include tablets {
+        max-height: 630px;
+        max-width: 630px;
+        width: 100%;
+    }
+
+    @include phones {
+        max-height: 348px;
+        max-width: 348px;
+
+        min-width: 245px;
+        min-height: 245px;
+        width: 100%;
+    }
+}
+
+.appButton {
+    position: relative;
+    width: rem(200px);
+    height: rem(64px);
+    padding: rem(12px) rem(20px) rem(12px) rem(20px);
+    border-radius: rem(100px);
+    border: rem(1px) solid #665F55;
+    background-color: transparent;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0 0 rem(67px);
+
+    cursor: pointer;
+
+}
+
+.appButton > svg {
+    position: absolute;
+
+}
+
+.mobileAppButton__text {
+    text-align: left;
+}
+
+.mobileAppButton__description {
+    font-weight: 600;
+    font-size: rem(10px);
+}
+
+.mobileAppButton__StoreName {
+    font-weight: 600;
+    font-size: rem(16px);
+}
+
+
+#appButton--appStore {
+    width: rem(36px);
+    height: rem(36px);
+    left: rem(25px);
+    top: rem(12px);
+}
+
+#appButton--GooglePlay {
+    width: rem(34px);
+    height: rem(79px);
+    left: rem(31px);
+}
+
+@media (hover: hover) {
+    .appButton:hover {
+        background-color: #665F55;
+        color: #E1D4C9;
+        #appButton--appStore  {
+            & > * {
+                fill: #E1D4C9;
+            }
+        }
+        #appButton--GooglePlay {
+            & > * {
+                fill: #E1D4C9;
+            }
+        }
+    }
+
+
+
+}

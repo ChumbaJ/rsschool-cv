@@ -1,0 +1,128 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
+.favoriteCoffee {
+    margin: 0 0 rem(100px) 0;
+}
+
+.favoriteCoffee__title {
+    margin: 0 0 rem(40px) 0;
+    text-align: center;
+}
+
+.favoriteCoffee__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.favoriteCoffee__slider__container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+}
+
+.favoriteCoffee__slider {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: rem(44px);
+
+    @include phones {
+        justify-content: center;
+    }
+}
+
+.favoriteCoffee__slider--button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: rem(60px);
+    min-height: rem(60px);
+    background-color: transparent;
+    border: rem(1px) solid #665F55;
+    border-radius: 50%;
+
+    @media screen and (max-width: 560px) {
+        min-width: rem(60px) - 1rem;
+        min-height: rem(60px) - 1rem;
+    }
+
+    @include phones {
+        display: none;
+    }
+}
+.favoriteCoffee__slider--button:last-child {
+    transform: rotate(180deg);
+}
+
+@media (hover: hover) {
+    .favoriteCoffee__slider--button:hover {
+        background-color: #665F55;
+    }
+    
+    .favoriteCoffee__slider--button:hover > svg > path {
+        stroke: rgb(214, 214, 214);
+    }
+}
+
+
+
+
+.favoriteCoffee__slider--item {
+    display: flex;
+    justify-content: center;
+}
+
+.favoriteCoffee__slider--item__container {
+    max-width: rem(480px);
+    width: fit-content;
+}
+.favoriteCoffee__slider--list {
+    padding: 0;
+    margin: 0;
+
+}
+.favoriteCoffee__slider--item--picture {
+    max-width: rem(480px);
+    width: 100%;
+    height: auto;
+
+    -webkit-user-drag: none;
+
+    @include phones {
+        width: 348px;
+        height: 348px;
+    }
+}
+
+.favoriteCoffee__slider--item--text {
+    text-align: center;
+}
+.favoriteCoffee__slider--item--name {
+    font-size: rem(24px);
+    font-weight: 600;
+}
+.favoriteCoffee__slider--item--description {
+    margin-bottom: 16px;
+}
+.favoriteCoffee__slider--item--cost {
+    font-weight: 600;
+    font-size: rem(24px);
+}
+
+.favoriteCoffee__paginator {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.favoriteCoffee__paginator > * {
+    margin-right: rem(12px);
+}
+.favoriteCoffee__paginator > *:last-child {
+    margin: 0;
+}

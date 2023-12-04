@@ -1,0 +1,86 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
+.hero {
+    margin: 0 0 rem(100px) 0;
+}
+
+.hero__container {
+    color: #E1D4C9;
+    position: relative;
+}
+
+.hero__offer__container {
+    padding: rem(100px);
+    background-image: url("../../../icons/img-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: rem(40px);
+    background-position: center;
+    max-height: 664px;
+    
+    @include tablets {
+        padding: 100px 60px;
+    }
+
+    @media screen and (max-width: 500px){
+        padding: 60px 16px;
+    }
+
+    @include phones {
+        max-height: 552px;
+    }
+
+}
+.hero__offer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    max-width: rem(530px);
+}
+
+.hero__offer > * {
+    margin: 0 0 rem(40px) 0;
+}
+.hero__offer > *:last-child {
+    margin: 0;
+}
+
+#mainPageTitle {
+    font-size: rem(72px);
+    @include tablets {
+        font-size: rem(62px);
+    }
+    @media screen and (max-width: 675px) {
+        font-size: rem(48px);
+    }
+    @media screen and (max-width: 500px) {
+        font-size: rem(42px);
+    }
+
+    @include phones {
+        font-size: rem(42px);
+    }
+    @media screen and (max-width: 365px) {
+        font-size: rem(36px);
+    }
+    @media screen and (max-width: 320px) {
+        font-size: rem(30px);
+    }
+}
+
+#mainPageTitle__description {
+    line-height: rem(24px);
+}
+
+.hero__button {
+    width: rem(200px);
+    height: rem(64px);
+    outline: none;
+    border: none;
+    border-radius: rem(100px);
+    background-color: #E1D4C9;
+    text-align: center;
+    padding: rem(20px) rem(78px) rem(20px) rem(78px);
+    font-weight: 600;
+}
