@@ -113,12 +113,12 @@ button {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    padding: 100px 60px;
+    padding: 100px 60px !important;
   }
 }
 @media screen and (max-width: 380px) {
   .footer__container {
-    padding: 60px 16px;
+    padding: 60px 16px !important;
     max-height: 526px;
   }
 }
