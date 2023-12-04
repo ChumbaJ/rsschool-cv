@@ -14,10 +14,19 @@
     & > * {
         width: 40%;
     }
+
+    @include tablets {
+        flex-flow: column nowrap;
+    }
 }
 
 .mobileApp__content {
     min-width: rem(390px);
+
+    @include tablets {
+        width: 100%;
+        margin-bottom: 100px;
+    }
 }
 
 .mobileApp__title {
@@ -39,13 +48,28 @@
 .mobileApp__mobilesImage {
     height: auto;
     width: 47%;
+
+    @include tablets {
+        max-height: 630px;
+        max-width: 630px;
+        width: 100%;
+    }
+
+    @include phones {
+        max-height: 348px;
+        max-width: 348px;
+
+        min-width: 245px;
+        min-height: 245px;
+        width: 100%;
+    }
 }
 
 .appButton {
     position: relative;
     width: rem(200px);
     height: rem(64px);
-    padding: rem(12px), rem(20px), rem(12px), rem(20px);
+    padding: rem(12px) rem(20px) rem(12px) rem(20px);
     border-radius: rem(100px);
     border: rem(1px) solid #665F55;
     background-color: transparent;
@@ -83,13 +107,13 @@
 #appButton--appStore {
     width: rem(36px);
     height: rem(36px);
-    padding: 1.rem(8px), 4.rem(94px), 2.rem(55px), 4.rem(65px);
+    padding: rem(8px) rem(94px) rem(55px) rem(65px);
     left: rem(25px);
     top: rem(12px);
 }
 
 #appButton--GooglePlay {
-    width: 30.rem(34px);
-    height: 32.rem(79px);
+    width: rem(34px);
+    height: rem(79px);
     left: rem(31px);
 }
