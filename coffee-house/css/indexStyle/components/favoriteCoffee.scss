@@ -36,11 +36,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: rem(60px);
-    height: rem(60px);
+    min-width: rem(60px);
+    min-height: rem(60px);
     background-color: transparent;
     border: rem(1px) solid #665F55;
     border-radius: 50%;
+
+    @media screen and (max-width: 560px) {
+        min-width: rem(60px) - 1rem;
+        min-height: rem(60px) - 1rem;
+    }
+
+    @include phones {
+        display: none;
+    }
 }
 .favoriteCoffee__slider--button:last-child {
     transform: rotate(180deg);
@@ -61,15 +70,18 @@
 }
 
 .favoriteCoffee__slider--item__container {
-    width: rem(480px);
+    max-width: rem(480px);
+    width: fit-content;
 }
 .favoriteCoffee__slider--list {
     padding: 0;
     margin: 0;
 }
 .favoriteCoffee__slider--item--picture {
-    width: rem(480px);
-    height: rem(480px);
+    max-width: rem(480px);
+    width: 100%;
+    height: auto;
+
     -webkit-user-drag: none;
 }
 
@@ -79,6 +91,9 @@
 .favoriteCoffee__slider--item--name {
     font-size: rem(24px);
     font-weight: 600;
+}
+.favoriteCoffee__slider--item--description {
+    margin-bottom: 16px;
 }
 .favoriteCoffee__slider--item--cost {
     font-weight: 600;

@@ -145,11 +145,22 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 3.75rem;
-  height: 3.75rem;
+  min-width: 3.75rem;
+  min-height: 3.75rem;
   background-color: transparent;
   border: 0.0625rem solid #665F55;
   border-radius: 50%;
+}
+@media screen and (max-width: 560px) {
+  .favoriteCoffee__slider--button {
+    min-width: 2.75rem;
+    min-height: 2.75rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .favoriteCoffee__slider--button {
+    display: none;
+  }
 }
 
 .favoriteCoffee__slider--button:last-child {
@@ -175,7 +186,10 @@ button {
 }
 
 .favoriteCoffee__slider--item__container {
-  width: 30rem;
+  max-width: 30rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .favoriteCoffee__slider--list {
@@ -184,8 +198,9 @@ button {
 }
 
 .favoriteCoffee__slider--item--picture {
-  width: 30rem;
-  height: 30rem;
+  max-width: 30rem;
+  width: 100%;
+  height: auto;
   -webkit-user-drag: none;
 }
 
@@ -196,6 +211,10 @@ button {
 .favoriteCoffee__slider--item--name {
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+.favoriteCoffee__slider--item--description {
+  margin-bottom: 16px;
 }
 
 .favoriteCoffee__slider--item--cost {
