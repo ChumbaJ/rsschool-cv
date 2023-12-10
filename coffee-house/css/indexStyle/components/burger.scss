@@ -15,6 +15,14 @@
     color: #403F3D;
 }
 
+.burger.closed {
+    display: none;
+}
+
+.burger.opened {
+    display: flex;
+}
+
 .burger-menu__nav {
     font-weight: 600;
     font-size: 32px;
