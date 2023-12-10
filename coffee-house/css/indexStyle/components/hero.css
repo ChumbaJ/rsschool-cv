@@ -84,6 +84,11 @@ button {
 .hero {
   margin: 0 0 6.25rem 0;
 }
+@media screen and (max-width: 786px) {
+  .hero {
+    margin-top: 84px;
+  }
+}
 
 .hero__container {
   color: #E1D4C9;

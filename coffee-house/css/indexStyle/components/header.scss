@@ -3,6 +3,15 @@
 
 .header__container {
     margin-bottom: rem(20px);
+    background-color: #E1D4C9;
+    @include tablets {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
 }
 
 .header__menu {

@@ -3,6 +3,9 @@
 
 .hero {
     margin: 0 0 rem(100px) 0;
+    @include tablets {
+        margin-top: 84px;
+    }
 }
 
 .hero__container {

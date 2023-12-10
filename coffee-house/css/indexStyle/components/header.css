@@ -83,6 +83,16 @@ button {
 
 .header__container {
   margin-bottom: 1.25rem;
+  background-color: #E1D4C9;
+}
+@media screen and (max-width: 786px) {
+  .header__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
 }
 
 .header__menu {
