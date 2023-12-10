@@ -29,8 +29,7 @@
 .header__menu--nav > *{
     margin-right: rem(40px);
     color: #403F3D;
-    text-decoration: none;
-
+    
     @include tablets {
         display: none;
     }
