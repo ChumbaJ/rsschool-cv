@@ -60,6 +60,11 @@ body {
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -83,6 +88,16 @@ button {
 
 .header__container {
   margin-bottom: 1.25rem;
+  background-color: #E1D4C9;
+}
+@media screen and (max-width: 786px) {
+  .header__container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
 }
 
 .header__menu {
@@ -107,7 +122,6 @@ button {
 .header__menu--nav > * {
   margin-right: 2.5rem;
   color: #403F3D;
-  text-decoration: none;
 }
 @media screen and (max-width: 786px) {
   .header__menu--nav > * {
@@ -170,7 +184,7 @@ button {
   }
 }
 
-.header__menu--coffeeMenuButton__name {
+a.header__menu--coffeeMenuButton__name {
   font-size: 1rem;
   font-weight: 600;
 }

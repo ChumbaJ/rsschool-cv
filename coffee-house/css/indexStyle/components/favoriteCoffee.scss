@@ -69,23 +69,30 @@
     }
 }
 
+.favoriteCoffee__carouselContainer {
+    width: 100%;
+    overflow-x: scroll;
+}
 
-
+.favoriteCoffee__slider--list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 200%;
+}
 
 .favoriteCoffee__slider--item {
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .favoriteCoffee__slider--item__container {
     max-width: rem(480px);
     width: fit-content;
 }
-.favoriteCoffee__slider--list {
-    padding: 0;
-    margin: 0;
 
-}
 .favoriteCoffee__slider--item--picture {
     max-width: rem(480px);
     width: 100%;

@@ -3,6 +3,15 @@
 
 .header__container {
     margin-bottom: rem(20px);
+    background-color: #E1D4C9;
+    @include tablets {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+    }
+
 }
 
 .header__menu {
@@ -20,8 +29,7 @@
 .header__menu--nav > *{
     margin-right: rem(40px);
     color: #403F3D;
-    text-decoration: none;
-
+    
     @include tablets {
         display: none;
     }
@@ -76,7 +84,7 @@
     }
 }
 
-.header__menu--coffeeMenuButton__name {
+a.header__menu--coffeeMenuButton__name {
     font-size: rem(16px);
     font-weight: 600;
 }
@@ -85,4 +93,5 @@
     position: absolute;
     right: rem(-24px);
     top: rem(-3px);
+    
 }

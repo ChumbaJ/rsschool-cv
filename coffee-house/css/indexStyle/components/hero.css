@@ -60,6 +60,11 @@ body {
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -83,6 +88,11 @@ button {
 
 .hero {
   margin: 0 0 6.25rem 0;
+}
+@media screen and (max-width: 786px) {
+  .hero {
+    margin-top: 84px;
+  }
 }
 
 .hero__container {
