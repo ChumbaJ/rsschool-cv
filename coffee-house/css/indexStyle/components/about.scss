@@ -1,0 +1,91 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
+.about {
+    margin: 0 0 rem(100px) 0;
+}
+
+.about__title {
+    margin: 0 0 rem(40px) 0;
+}
+
+.about__imageColumns {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+    @include tablets {
+        flex-flow: column nowrap;
+    }
+}
+
+.about__column {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 47%;
+
+    @include tablets {
+        width: 100%;
+
+        &:first-child {
+            margin-bottom: 40px;
+        }
+    }
+
+    @include phones {
+        height: 590px;
+    }
+}
+
+.about__column > * {
+    overflow: hidden;
+    margin: 0 0 rem(40px) 0;
+
+    & > img {
+        width: 100%;
+        height: auto;
+    }
+
+    @include tablets {
+        margin: 0;
+    }
+}
+
+.about__column > *:last-child {
+    margin: 0;
+}
+
+.about_column--bigBox {
+    width: 100%;
+    height: auto;
+    border-radius: rem(20px);
+
+    @include phones {
+        height: 590px;
+        position: relative;
+        
+        & > img {
+            position: absolute;
+            width: 726px;
+            height: 726px;
+            top:-68px;
+            left: -189px;
+        }
+    }
+
+    
+
+
+}
+
+.about_column--smallBox {
+    width: 100%;
+    height: auto;
+    border-radius: rem(20px);
+
+    @include tablets {
+        display: none;
+    }
+
+}

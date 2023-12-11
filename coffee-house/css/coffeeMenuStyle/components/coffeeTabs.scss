@@ -1,0 +1,69 @@
+@import "../../media.scss";
+@import "../../layout.scss";
+
+.coffee__list__container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.coffee__list {
+    display: flex;
+    flex-flow: row wrap;
+
+    @include tablets {
+        justify-content: center;
+
+        & > li:nth-of-type(even) {
+            margin: 0;
+        }
+
+        & > li:nth-child(n+5) {
+            display: none;
+        }
+    }
+}
+
+
+.coffee__list--item {
+    height: rem(506px);
+    width: min-content;
+    border: rem(1px) solid #C1B6AD;
+    border-radius: rem(40px);
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 40px 40px 0;
+}
+
+
+.coffee__list--itemPicture {
+    width: 310px;
+    height: 310px;
+    border-radius: rem(40px);
+    overflow: hidden;
+
+}
+
+.coffee__list--itemPicture > img {
+    -webkit-user-drag: none;
+}
+
+.coffee--description {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    padding: rem(20px);
+    flex-grow: 1;
+}
+
+
+.coffee__textBox--title {
+    margin: 0 0 rem(12px) 0;
+    font-size: rem(24px);
+    font-weight: 600;
+}
+
+.coffee__price {
+    font-weight: 600;
+    font-size: rem(24px);
+}
