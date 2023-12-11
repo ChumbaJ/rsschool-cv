@@ -62,6 +62,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 ul {
@@ -183,7 +184,7 @@ button {
   }
 }
 
-.header__menu--coffeeMenuButton__name {
+a.header__menu--coffeeMenuButton__name {
   font-size: 1rem;
   font-weight: 600;
 }

@@ -84,7 +84,7 @@
     }
 }
 
-.header__menu--coffeeMenuButton__name {
+a.header__menu--coffeeMenuButton__name {
     font-size: rem(16px);
     font-weight: 600;
 }
@@ -93,4 +93,5 @@
     position: absolute;
     right: rem(-24px);
     top: rem(-3px);
+    
 }
