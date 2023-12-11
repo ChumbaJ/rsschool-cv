@@ -1,6 +1,7 @@
-const burger = document.getElementById("burgerMenu");
-const burgerBtn = document.getElementById("burgerBtn");
+import { initBurgerMenu } from "./scripts/burger.js";
 
-burgerBtn.addEventListener("click", (event) => {
-    burger.classList.toggle("opened");
-})
+function init() {
+    initBurgerMenu();
+}
+
+init();
